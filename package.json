@@ -1,0 +1,16 @@
+{
+    "name": "samsung-ctl",
+    "author": {
+        "name": "Demonitized",
+        "email": "admin@demonitize.is-a.dev"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "samsung-remote": "^1.6.0"
+    },
+    "version": "1.0.0",
+    "main": "node main.js",
+    "scripts": {
+        "start": "node main.js"
+    }
+}

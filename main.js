@@ -3,7 +3,7 @@ const express = require("express");
 
 
 const remote = new CTL({
-    ip: '192.168.1.13' // required: IP address of your Samsung Smart TV
+    ip: '192.168.100.110' // required: IP address of your Samsung Smart TV
 });
  
 remote.send('KEY_VOLUP', (err) => {
